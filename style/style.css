@@ -60,54 +60,61 @@ h3{
     font-size: 20px;
     border: 2px solid rgba(20, 20, 20, 0.533);
 }
-.Terror{
+
+.blockGenero{
     height: 180px;
     width: 49%;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Terror{        
     background-color: rgb(136, 69, 11);
     scroll-behavior: auto;
-    float: left;
-    font-size: 50px;
-    text-align: center
-    
+    float: left;        
+    transition: all 0.5s;
 }
-.scifi{
-    width: 49%;
-    height: 180px;
+
+.Terror:hover{
+    background-color:goldenrod;
+}
+
+.scifi{    
     background-color: rgb(155, 41, 41); 
-    float: right;
-    font-size: 50px;
-    text-align: center
+    float: right;    
 }
-.comedia{
+.blockbottom{
     width: 49%;
     height: 180px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.comedia{
     background-color: rgb(131, 39, 39); 
     float: left;
-    font-size: 50px;
-    text-align: center
-    }
+ }
 
 .romance{
-    height: 180px;
-    width: 49%;
     background-color: rgb(211, 156, 186); 
     float: right;
-    font-size: 50px;
-    text-align: center
-    
+     
 }
 .espacio{
-    clear: auto;
-    background-color: #eee;
+    
+    background-color: #fffefe;
     height: 200px;
-    width: 25px;
+    width: 100%px;
 }
 .link{
     color: var(--color-action-active);
 }
 nav{
-    background-color: darkgray;
-    color: rgb(44, 54, 54);
+    background-color: rgb(231, 235, 236);
+    color: rgb(153, 116, 153);
     padding: 5px;
     display: flex;
 }
@@ -116,5 +123,15 @@ nav{
     list-style: none;
     display:flex;
     margin-right: 1cm;
+    color: beige;
 
+}
+nav ul{
+    margin: 0; 
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 5cm;
 }
