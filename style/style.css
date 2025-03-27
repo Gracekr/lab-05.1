@@ -5,19 +5,18 @@
 }
     h1{
         padding: 25px;
-        border: px black;
-        background-color: rgb(226, 196, 151);
-    color: rgb(148, 49, 49);
+        background-color: rgb(170, 155, 206);
+    color: rgb(59, 23, 189);
      font-size: 3em;
      font-variant: small-caps
            
 }
 
 .cotufa{
-    padding: 25px;
-    background-color: rgb(90, 90, 36);
+    padding: 20px;
+    background-color: rgb(175, 175, 160);
     height: 300px;
-    border: 1px blueviolet;
+    
     background-position:center center;
     width: 100%;
 }
@@ -65,6 +64,7 @@ h3{
     height: 180px;
     width: 49%;
     font-size: 50px;
+    font-variant: small-caps;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ h3{
 }
 
 .Terror{        
-    background-color: rgb(136, 69, 11);
+    background-color: rgba(126, 72, 24, 0.247);
     scroll-behavior: auto;
     float: left;        
     transition: all 0.5s;
@@ -83,23 +83,27 @@ h3{
 }
 
 .scifi{    
-    background-color: rgb(155, 41, 41); 
+    background-color: rgba(155, 41, 41, 0.274); 
     float: right;    
 }
-.blockbottom{
+.bottom{
     width: 49%;
     height: 180px;
     font-size: 50px;
     text-align: center;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
 
 .comedia{
-    background-color: rgb(131, 39, 39); 
+    background-color: rgb(43, 156, 190); 
     float: left;
  }
 
 .romance{
-    background-color: rgb(211, 156, 186); 
+    background-color: rgb(206, 215, 218); 
     float: right;
      
 }
@@ -134,4 +138,9 @@ nav li{
     list-style: none;
     display: inline;
     margin-right: 5cm;
+}
+
+.body{
+padding: 60px;
+    
 }
