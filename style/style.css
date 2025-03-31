@@ -1,5 +1,6 @@
 .aligncenter{
     text-align: center;
+    
        
         
 }
@@ -37,11 +38,13 @@ h2{
 }
 h3{
     
-    font-size: 20px;
+    font-size: 30px;
     height: 50px;
     background-color: rgba(14, 13, 14, 0.533);
-    font-size: 20px;
     border: 2px solid rgba(20, 20, 20, 0.533);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .shadow{
@@ -121,6 +124,7 @@ nav{
     color: rgb(153, 116, 153);
     padding: 5px;
     display: flex;
+    
 }
 
 .ulist{
@@ -142,5 +146,34 @@ nav li{
 
 .body{
 padding: 60px;
+    
+}
+
+table{
+    height: 60%;
+    width: 65%;
+    font-size: 49px;
+padding: 30px;
+background-color: bisque;
+    border: 2px solid#991414ee;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid#991414ee;
+    justify-content: start;
+    align-items: start;
+}
+td{
+    border: 2px solid#991414ee; 
+
+}
+.navbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    background round;
+    border:4px; #1f89c7;
+    border-radius: 45%;
     
 }
