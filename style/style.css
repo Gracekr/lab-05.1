@@ -15,12 +15,11 @@
 
 .cotufa{
     padding: 2px;
-    background-color: rgb(175, 175, 160);
-    height: 300px;
+    background-image: linear-gradient(to top, rgb(17, 17, 17), white);
+    background-color: rgb(221, 221, 70);
     background-position:center center;
     background-repeat:repeat-x;
-    opacity:0.8;
-    width: 100%;
+    
 }
 ol{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,8 +33,8 @@ ol{
     
 }
 h2{
-        font-variant: small-caps;
-        color: black;
+        text-transform:uppercase;
+        color: rgb(19, 18, 18);
 }
 h3{
     
@@ -83,7 +82,9 @@ h3{
 
 .Terror:hover{
     background-color:goldenrod;
+    
 }
+
 
 .scifi{    
     background-color: rgba(155, 41, 41, 0.274); 
