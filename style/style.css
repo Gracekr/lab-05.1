@@ -1,43 +1,46 @@
-.aligncenter{
+.aligncenter {
     text-align: center;
-    
-       
-        
-}
-    h1{
-        padding: 25px;
-        background-color: rgb(170, 155, 206);
-    color: rgb(59, 23, 189);
-     font-size: 3em;
-     font-variant: small-caps
-           
+
+
+
 }
 
-.cotufa{
+h1 {
+    padding: 25px;
+    background-color: rgb(170, 155, 206);
+    color: rgb(59, 23, 189);
+    font-size: 3em;
+    font-variant: small-caps
+}
+
+.cotufa {
     padding: 2px;
     background-image: linear-gradient(to top, rgb(17, 17, 17), white);
     background-color: rgb(221, 221, 70);
-    background-position:center center;
-    background-repeat:repeat-x;
-    
+    background-position: center center;
+    background-repeat: repeat-x;
+
 }
-ol{
+
+ol {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: brown;
 }
-    
 
-.p{
+
+.p {
     font-size: small;
     font-family: fantasy;
-    
+
 }
-h2{
-        text-transform:uppercase;
-        color: rgb(19, 18, 18);
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(19, 18, 18);
 }
-h3{
-    
+
+h3 {
+
     font-size: 30px;
     height: 50px;
     background-color: rgba(14, 13, 14, 0.533);
@@ -45,24 +48,26 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.shadow{
+
+.shadow {
     text-shadow: 5px 5px 5px;
 }
 
-.container{
-    
+.container {
+
     border: 5px color(srgb rgb(119, 16, 16) green blue);
 }
-.header{
+
+.header {
     height: 100px;
     background-color: rgba(14, 13, 14, 0.533);
     font-size: 20px;
     border: 2px solid rgba(20, 20, 20, 0.533);
 }
 
-.blockGenero{
+.blockGenero {
     height: 180px;
     width: 49%;
     font-size: 50px;
@@ -73,108 +78,128 @@ h3{
     justify-content: center;
 }
 
-.Terror{        
+.Terror {
     background-color: rgba(126, 72, 24, 0.247);
     scroll-behavior: auto;
-    float: left;        
+    float: left;
     transition: all 0.5s;
 }
 
-.Terror:hover{
-    background-color:goldenrod;
-    
+.Terror:hover {
+    background-color: goldenrod;
+
 }
 
 
-.scifi{    
-    background-color: rgba(155, 41, 41, 0.274); 
-    float: right;    
+
+.scifi {
+    background-color: rgba(155, 41, 41, 0.274);
+    float: right;
 }
-.bottom{
+
+.bottom {
     width: 49%;
     height: 180px;
     font-size: 50px;
     text-align: center;
     font-variant: small-caps;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 }
 
-.comedia{
-    background-color: rgb(43, 156, 190); 
+.comedia {
+    background-color: rgb(43, 156, 190);
     float: left;
- }
-
-.romance{
-    background-color: rgb(206, 215, 218); 
-    float: right;
-     
 }
-.espacio{
-    
+
+.romance {
+    background-color: rgb(206, 215, 218);
+    float: right;
+
+}
+
+.espacio {
+
     background-color: #fffefe;
     height: 200px;
     width: 100%px;
 }
-.link{
+
+.link {
     color: var(--color-action-active);
 }
-nav{
+
+nav {
     background-color: rgb(231, 235, 236);
     color: rgb(153, 116, 153);
     padding: 5px;
     display: flex;
-    
+
 }
 
-.ulist{
+.ulist {
     list-style: none;
-    display:flex;
+    display: flex;
     margin-right: 1cm;
     color: beige;
 
 }
-nav ul{
-    margin: 0; 
+
+nav ul {
+    margin: 0;
 }
 
-nav li{
+nav li {
     list-style: none;
     display: inline;
     margin-right: 5cm;
-}
-
-.body{
-padding: 60px;
     
 }
 
-table{
+.body {
+    padding: 60px;
+
+}
+
+table {
+
     height: 60%;
     width: 65%;
     font-size: 49px;
-padding: 30px;
-background-color: bisque;
+    padding: 30px;
+    background-color: bisque;
     border: 2px solid#991414ee;
     border-collapse: collapse;
+    width: 100%;
+
 }
-th{
+
+th {
     border: 2px solid#991414ee;
     justify-content: start;
     align-items: start;
 }
-td{
-    border: 2px solid#991414ee; 
+
+td {
+    border: 2px solid#991414ee;
+    padding-left: 20px;
+
+    a {
+        text-decoration: none;
+    }
 
 }
-.navbottom{
+
+.navbottom {
     display: flex;
     justify-content: space-between;
 }
-.img{
+
+.img {
     background round;
-    border:4px; #1f89c7;
+    border: 4px;
+    #1f89c7;
     border-radius: 45%;
-    
+
 }
